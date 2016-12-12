@@ -1,0 +1,17 @@
+Package: FlowSorted.CordBloodNorway.450k
+Version: 0.99.2
+Title: Illumina HumanMethylation data on sorted cord blood cell
+        populations
+Description: Raw data objects for the Illumina 450k DNA methylation
+        microarrays, for cell type composition estimation.
+Authors@R: c(person("kristina", "gervin", role = c("cre", "aut"), email
+        = "kristina.gervin@medisin.uio.no"), person(c("Kasper",
+        "Daniel"), "Hansen", role = c("aut")))
+License: Artistic-2.0
+URL: https://bitbucket.com/kasperdanielhansen/Illumina_CordBlood
+Depends: R (>= 3.2.0), minfi
+LazyData: yes
+biocViews: Homo_sapiens_Data, MethylationArrayData, MicroarrayData
+NeedsCompilation: no
+Author: kristina gervin [cre, aut], Kasper Daniel Hansen [aut]
+Maintainer: kristina gervin <kristina.gervin@medisin.uio.no>
